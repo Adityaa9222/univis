@@ -1031,7 +1031,7 @@ button.interested:hover {
 }
 
 
-@media only  screen and (max-width:480px){
+@media only  screen and (max-width:780px){
     * {
         box-sizing: border-box;
       }
@@ -1047,7 +1047,7 @@ button.interested:hover {
     }
 
     .navbar{
-        height: 10vh;
+        height: 11vh;
     }
     .logo{
         margin-left: 37%;
@@ -1343,10 +1343,33 @@ button.interested:hover {
 
   /*info box*/
   .info-box{
+      background:transparent;
+      padding-left:0%;
+      padding-top:0%;
+      margin-top:50%;
+      margin-left:38%;
     
   }
+    .slideshow-container{
+        max-width:80%;
+    }
   .ove,.amo,.Gallery,.loco{
     font-size: 2em;
   }
+    #ram{
+        font-size:2em;
+    }
+    #sham{
+        font-size:2em;
+    }
+    .amenities-title{
+        font-size:2em;
+    }
+    #jako{
+        font-size:2em;
+    }
+    
+
+    
 
 }
